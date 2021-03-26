@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56043FBE25BAD02700FB075A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56043FBD25BAD02700FB075A /* AppDelegate.m */; };
+		56043FC125BAD02700FB075A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56043FC025BAD02700FB075A /* SceneDelegate.m */; };
+		56043FC725BAD02700FB075A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56043FC525BAD02700FB075A /* Main.storyboard */; };
+		56043FCA25BAD02700FB075A /* Flickroo_V2_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56043FC825BAD02700FB075A /* Flickroo_V2_0.xcdatamodeld */; };
+		56043FCC25BAD04200FB075A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56043FCB25BAD04200FB075A /* Assets.xcassets */; };
+		56043FCF25BAD04200FB075A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56043FCD25BAD04200FB075A /* LaunchScreen.storyboard */; };
+		56043FD225BAD04200FB075A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56043FD125BAD04200FB075A /* main.m */; };
+		56043FDF25BAD2CA00FB075A /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 56043FDE25BAD2CA00FB075A /* FlickrFetcher.m */; };
+		56043FEF25BAD36C00FB075A /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 56043FEE25BAD36C00FB075A /* Photo.m */; };
+		56043FF425BAE7A800FB075A /* Region.m in Sources */ = {isa = PBXBuildFile; fileRef = 56043FF325BAE7A800FB075A /* Region.m */; };
+		564BC07125BC235A008CE253 /* Photographer+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 564BC07025BC235A008CE253 /* Photographer+Create.m */; };
+		564BC07B25BC49F0008CE253 /* Region+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 564BC07A25BC49F0008CE253 /* Region+Create.m */; };
+		564BC07F25BC4AF5008CE253 /* FilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 564BC07E25BC4AF5008CE253 /* FilePath.m */; };
+		566A643B25C10B0A0005EBCB /* Photo+Delete.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A643A25C10B0A0005EBCB /* Photo+Delete.m */; };
+		566A643F25C123900005EBCB /* Photographer+Delete.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A643E25C123900005EBCB /* Photographer+Delete.m */; };
+		566A644325C123D60005EBCB /* Photographer+Fetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A644225C123D60005EBCB /* Photographer+Fetch.m */; };
+		566A644725C127190005EBCB /* Region+Delete.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A644625C127190005EBCB /* Region+Delete.m */; };
+		566A644B25C136860005EBCB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A644A25C136860005EBCB /* Reachability.m */; };
+		5672B99325BFF71900C39026 /* RecentlyViewedFlickrPhotoTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5672B99225BFF71900C39026 /* RecentlyViewedFlickrPhotoTracker.m */; };
+		5672B99725BFFD6100C39026 /* RecentlyViewedPhotoTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5672B99625BFFD6100C39026 /* RecentlyViewedPhotoTVC.m */; };
+		5672B99B25BFFDF300C39026 /* RegionPhotoTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5672B99A25BFFDF300C39026 /* RegionPhotoTVC.m */; };
+		5677D33B25BD22E600759C0A /* Region+Fetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5677D33A25BD22E600759C0A /* Region+Fetch.m */; };
+		5677D34025BD2E1E00759C0A /* RegionTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5677D33F25BD2E1E00759C0A /* RegionTVC.m */; };
+		5677D34525BD468E00759C0A /* PhotoTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5677D34425BD468E00759C0A /* PhotoTVC.m */; };
+		5677D34A25BD4F7000759C0A /* ImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5677D34925BD4F7000759C0A /* ImageVC.m */; };
+		5677D35225BD9FF400759C0A /* Thumbnail+Fetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5677D35125BD9FF400759C0A /* Thumbnail+Fetch.m */; };
+		568469A125BBC2650006622E /* Photographer.m in Sources */ = {isa = PBXBuildFile; fileRef = 568469A025BBC2650006622E /* Photographer.m */; };
+		568469A525BBC4670006622E /* Thumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = 568469A425BBC4670006622E /* Thumbnail.m */; };
+		568469AA25BC12710006622E /* Photo+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 568469A925BC12710006622E /* Photo+Create.m */; };
+		568469AF25BC13AE0006622E /* Photo+FlickrFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 568469AE25BC13AE0006622E /* Photo+FlickrFetch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56043FB925BAD02700FB075A /* Flickroo V2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flickroo V2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56043FBC25BAD02700FB075A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56043FBD25BAD02700FB075A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56043FBF25BAD02700FB075A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		56043FC025BAD02700FB075A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		56043FC625BAD02700FB075A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56043FC925BAD02700FB075A /* Flickroo_V2_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flickroo_V2_0.xcdatamodel; sourceTree = "<group>"; };
+		56043FCB25BAD04200FB075A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56043FCE25BAD04200FB075A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56043FD025BAD04200FB075A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56043FD125BAD04200FB075A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56043FDD25BAD2CA00FB075A /* FlickrFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		56043FDE25BAD2CA00FB075A /* FlickrFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		56043FE225BAD2F800FB075A /* FlickrAPIKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		56043FED25BAD36C00FB075A /* Photo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		56043FEE25BAD36C00FB075A /* Photo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		56043FF225BAE7A800FB075A /* Region.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Region.h; sourceTree = "<group>"; };
+		56043FF325BAE7A800FB075A /* Region.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Region.m; sourceTree = "<group>"; };
+		564BC06F25BC235A008CE253 /* Photographer+Create.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Photographer+Create.h"; sourceTree = "<group>"; };
+		564BC07025BC235A008CE253 /* Photographer+Create.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Photographer+Create.m"; sourceTree = "<group>"; };
+		564BC07925BC49F0008CE253 /* Region+Create.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Region+Create.h"; sourceTree = "<group>"; };
+		564BC07A25BC49F0008CE253 /* Region+Create.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Region+Create.m"; sourceTree = "<group>"; };
+		564BC07D25BC4AF5008CE253 /* FilePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilePath.h; sourceTree = "<group>"; };
+		564BC07E25BC4AF5008CE253 /* FilePath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilePath.m; sourceTree = "<group>"; };
+		566A643925C10B0A0005EBCB /* Photo+Delete.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Photo+Delete.h"; sourceTree = "<group>"; };
+		566A643A25C10B0A0005EBCB /* Photo+Delete.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Photo+Delete.m"; sourceTree = "<group>"; };
+		566A643D25C1238F0005EBCB /* Photographer+Delete.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Photographer+Delete.h"; sourceTree = "<group>"; };
+		566A643E25C123900005EBCB /* Photographer+Delete.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Photographer+Delete.m"; sourceTree = "<group>"; };
+		566A644125C123D60005EBCB /* Photographer+Fetch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Photographer+Fetch.h"; sourceTree = "<group>"; };
+		566A644225C123D60005EBCB /* Photographer+Fetch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Photographer+Fetch.m"; sourceTree = "<group>"; };
+		566A644525C127190005EBCB /* Region+Delete.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Region+Delete.h"; sourceTree = "<group>"; };
+		566A644625C127190005EBCB /* Region+Delete.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Region+Delete.m"; sourceTree = "<group>"; };
+		566A644925C136860005EBCB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../../../../Downloads/Reachability/Reachability/Reachability.h; sourceTree = "<group>"; };
+		566A644A25C136860005EBCB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../../../../Downloads/Reachability/Reachability/Reachability.m; sourceTree = "<group>"; };
+		5672B99125BFF71900C39026 /* RecentlyViewedFlickrPhotoTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecentlyViewedFlickrPhotoTracker.h; sourceTree = "<group>"; };
+		5672B99225BFF71900C39026 /* RecentlyViewedFlickrPhotoTracker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecentlyViewedFlickrPhotoTracker.m; sourceTree = "<group>"; };
+		5672B99525BFFD6100C39026 /* RecentlyViewedPhotoTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecentlyViewedPhotoTVC.h; sourceTree = "<group>"; };
+		5672B99625BFFD6100C39026 /* RecentlyViewedPhotoTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecentlyViewedPhotoTVC.m; sourceTree = "<group>"; };
+		5672B99925BFFDF300C39026 /* RegionPhotoTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegionPhotoTVC.h; sourceTree = "<group>"; };
+		5672B99A25BFFDF300C39026 /* RegionPhotoTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegionPhotoTVC.m; sourceTree = "<group>"; };
+		5677D33925BD22E600759C0A /* Region+Fetch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Region+Fetch.h"; sourceTree = "<group>"; };
+		5677D33A25BD22E600759C0A /* Region+Fetch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Region+Fetch.m"; sourceTree = "<group>"; };
+		5677D33E25BD2E1E00759C0A /* RegionTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegionTVC.h; sourceTree = "<group>"; };
+		5677D33F25BD2E1E00759C0A /* RegionTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegionTVC.m; sourceTree = "<group>"; };
+		5677D34325BD468E00759C0A /* PhotoTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoTVC.h; sourceTree = "<group>"; };
+		5677D34425BD468E00759C0A /* PhotoTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoTVC.m; sourceTree = "<group>"; };
+		5677D34825BD4F7000759C0A /* ImageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageVC.h; sourceTree = "<group>"; };
+		5677D34925BD4F7000759C0A /* ImageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageVC.m; sourceTree = "<group>"; };
+		5677D35025BD9FF400759C0A /* Thumbnail+Fetch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Thumbnail+Fetch.h"; sourceTree = "<group>"; };
+		5677D35125BD9FF400759C0A /* Thumbnail+Fetch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Thumbnail+Fetch.m"; sourceTree = "<group>"; };
+		5684699F25BBC2650006622E /* Photographer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photographer.h; sourceTree = "<group>"; };
+		568469A025BBC2650006622E /* Photographer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photographer.m; sourceTree = "<group>"; };
+		568469A325BBC4670006622E /* Thumbnail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Thumbnail.h; sourceTree = "<group>"; };
+		568469A425BBC4670006622E /* Thumbnail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thumbnail.m; sourceTree = "<group>"; };
+		568469A825BC12710006622E /* Photo+Create.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Photo+Create.h"; sourceTree = "<group>"; };
+		568469A925BC12710006622E /* Photo+Create.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Photo+Create.m"; sourceTree = "<group>"; };
+		568469AD25BC13AE0006622E /* Photo+FlickrFetch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Photo+FlickrFetch.h"; sourceTree = "<group>"; };
+		568469AE25BC13AE0006622E /* Photo+FlickrFetch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Photo+FlickrFetch.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56043FB625BAD02700FB075A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56043FB025BAD02700FB075A = {
+			isa = PBXGroup;
+			children = (
+				56043FBB25BAD02700FB075A /* Flickroo V2.0 */,
+				56043FBA25BAD02700FB075A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56043FBA25BAD02700FB075A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56043FB925BAD02700FB075A /* Flickroo V2.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56043FBB25BAD02700FB075A /* Flickroo V2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				56043FDB25BAD0EA00FB075A /* Model */,
+				56043FDA25BAD0E400FB075A /* Controller */,
+				56043FD925BAD0D700FB075A /* View */,
+				56043FBC25BAD02700FB075A /* AppDelegate.h */,
+				56043FBD25BAD02700FB075A /* AppDelegate.m */,
+				56043FBF25BAD02700FB075A /* SceneDelegate.h */,
+				56043FC025BAD02700FB075A /* SceneDelegate.m */,
+				56043FCB25BAD04200FB075A /* Assets.xcassets */,
+				56043FD025BAD04200FB075A /* Info.plist */,
+				56043FD125BAD04200FB075A /* main.m */,
+				56043FC825BAD02700FB075A /* Flickroo_V2_0.xcdatamodeld */,
+			);
+			path = "Flickroo V2.0";
+			sourceTree = "<group>";
+		};
+		56043FD925BAD0D700FB075A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56043FC525BAD02700FB075A /* Main.storyboard */,
+				56043FCD25BAD04200FB075A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		56043FDA25BAD0E400FB075A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5677D34725BD4F4800759C0A /* ViewController */,
+				5677D33D25BD2DFF00759C0A /* TableViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		56043FDB25BAD0EA00FB075A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				568469A725BC11EF0006622E /* Category */,
+				56043FDD25BAD2CA00FB075A /* FlickrFetcher.h */,
+				56043FDE25BAD2CA00FB075A /* FlickrFetcher.m */,
+				56043FE225BAD2F800FB075A /* FlickrAPIKey.h */,
+				56043FED25BAD36C00FB075A /* Photo.h */,
+				56043FEE25BAD36C00FB075A /* Photo.m */,
+				56043FF225BAE7A800FB075A /* Region.h */,
+				56043FF325BAE7A800FB075A /* Region.m */,
+				5684699F25BBC2650006622E /* Photographer.h */,
+				568469A025BBC2650006622E /* Photographer.m */,
+				568469A325BBC4670006622E /* Thumbnail.h */,
+				568469A425BBC4670006622E /* Thumbnail.m */,
+				564BC07D25BC4AF5008CE253 /* FilePath.h */,
+				564BC07E25BC4AF5008CE253 /* FilePath.m */,
+				5672B99125BFF71900C39026 /* RecentlyViewedFlickrPhotoTracker.h */,
+				5672B99225BFF71900C39026 /* RecentlyViewedFlickrPhotoTracker.m */,
+				566A644925C136860005EBCB /* Reachability.h */,
+				566A644A25C136860005EBCB /* Reachability.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5677D33D25BD2DFF00759C0A /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5677D33E25BD2E1E00759C0A /* RegionTVC.h */,
+				5677D33F25BD2E1E00759C0A /* RegionTVC.m */,
+				5677D34325BD468E00759C0A /* PhotoTVC.h */,
+				5677D34425BD468E00759C0A /* PhotoTVC.m */,
+				5672B99525BFFD6100C39026 /* RecentlyViewedPhotoTVC.h */,
+				5672B99625BFFD6100C39026 /* RecentlyViewedPhotoTVC.m */,
+				5672B99925BFFDF300C39026 /* RegionPhotoTVC.h */,
+				5672B99A25BFFDF300C39026 /* RegionPhotoTVC.m */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+		5677D34725BD4F4800759C0A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5677D34825BD4F7000759C0A /* ImageVC.h */,
+				5677D34925BD4F7000759C0A /* ImageVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		568469A725BC11EF0006622E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				568469A825BC12710006622E /* Photo+Create.h */,
+				568469A925BC12710006622E /* Photo+Create.m */,
+				568469AD25BC13AE0006622E /* Photo+FlickrFetch.h */,
+				568469AE25BC13AE0006622E /* Photo+FlickrFetch.m */,
+				564BC06F25BC235A008CE253 /* Photographer+Create.h */,
+				564BC07025BC235A008CE253 /* Photographer+Create.m */,
+				564BC07925BC49F0008CE253 /* Region+Create.h */,
+				564BC07A25BC49F0008CE253 /* Region+Create.m */,
+				5677D33925BD22E600759C0A /* Region+Fetch.h */,
+				5677D33A25BD22E600759C0A /* Region+Fetch.m */,
+				5677D35025BD9FF400759C0A /* Thumbnail+Fetch.h */,
+				5677D35125BD9FF400759C0A /* Thumbnail+Fetch.m */,
+				566A643925C10B0A0005EBCB /* Photo+Delete.h */,
+				566A643A25C10B0A0005EBCB /* Photo+Delete.m */,
+				566A643D25C1238F0005EBCB /* Photographer+Delete.h */,
+				566A643E25C123900005EBCB /* Photographer+Delete.m */,
+				566A644125C123D60005EBCB /* Photographer+Fetch.h */,
+				566A644225C123D60005EBCB /* Photographer+Fetch.m */,
+				566A644525C127190005EBCB /* Region+Delete.h */,
+				566A644625C127190005EBCB /* Region+Delete.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56043FB825BAD02700FB075A /* Flickroo V2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56043FD525BAD04200FB075A /* Build configuration list for PBXNativeTarget "Flickroo V2.0" */;
+			buildPhases = (
+				56043FB525BAD02700FB075A /* Sources */,
+				56043FB625BAD02700FB075A /* Frameworks */,
+				56043FB725BAD02700FB075A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flickroo V2.0";
+			productName = "Flickroo V2.0";
+			productReference = 56043FB925BAD02700FB075A /* Flickroo V2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56043FB125BAD02700FB075A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					56043FB825BAD02700FB075A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 56043FB425BAD02700FB075A /* Build configuration list for PBXProject "Flickroo V2.0" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56043FB025BAD02700FB075A;
+			productRefGroup = 56043FBA25BAD02700FB075A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56043FB825BAD02700FB075A /* Flickroo V2.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56043FB725BAD02700FB075A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56043FCF25BAD04200FB075A /* LaunchScreen.storyboard in Resources */,
+				56043FCC25BAD04200FB075A /* Assets.xcassets in Resources */,
+				56043FC725BAD02700FB075A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56043FB525BAD02700FB075A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56043FF425BAE7A800FB075A /* Region.m in Sources */,
+				56043FEF25BAD36C00FB075A /* Photo.m in Sources */,
+				568469AF25BC13AE0006622E /* Photo+FlickrFetch.m in Sources */,
+				56043FD225BAD04200FB075A /* main.m in Sources */,
+				5677D34525BD468E00759C0A /* PhotoTVC.m in Sources */,
+				56043FCA25BAD02700FB075A /* Flickroo_V2_0.xcdatamodeld in Sources */,
+				5677D34A25BD4F7000759C0A /* ImageVC.m in Sources */,
+				568469A125BBC2650006622E /* Photographer.m in Sources */,
+				566A644725C127190005EBCB /* Region+Delete.m in Sources */,
+				566A643B25C10B0A0005EBCB /* Photo+Delete.m in Sources */,
+				5677D35225BD9FF400759C0A /* Thumbnail+Fetch.m in Sources */,
+				564BC07125BC235A008CE253 /* Photographer+Create.m in Sources */,
+				5677D34025BD2E1E00759C0A /* RegionTVC.m in Sources */,
+				568469A525BBC4670006622E /* Thumbnail.m in Sources */,
+				5672B99325BFF71900C39026 /* RecentlyViewedFlickrPhotoTracker.m in Sources */,
+				564BC07F25BC4AF5008CE253 /* FilePath.m in Sources */,
+				568469AA25BC12710006622E /* Photo+Create.m in Sources */,
+				566A644325C123D60005EBCB /* Photographer+Fetch.m in Sources */,
+				5672B99725BFFD6100C39026 /* RecentlyViewedPhotoTVC.m in Sources */,
+				566A643F25C123900005EBCB /* Photographer+Delete.m in Sources */,
+				56043FBE25BAD02700FB075A /* AppDelegate.m in Sources */,
+				56043FDF25BAD2CA00FB075A /* FlickrFetcher.m in Sources */,
+				5672B99B25BFFDF300C39026 /* RegionPhotoTVC.m in Sources */,
+				564BC07B25BC49F0008CE253 /* Region+Create.m in Sources */,
+				56043FC125BAD02700FB075A /* SceneDelegate.m in Sources */,
+				566A644B25C136860005EBCB /* Reachability.m in Sources */,
+				5677D33B25BD22E600759C0A /* Region+Fetch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56043FC525BAD02700FB075A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56043FC625BAD02700FB075A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56043FCD25BAD04200FB075A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56043FCE25BAD04200FB075A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56043FD325BAD04200FB075A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56043FD425BAD04200FB075A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56043FD625BAD04200FB075A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSB3DT694V;
+				INFOPLIST_FILE = "Flickroo V2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kooapps.rjlacanlale.Flickroo-V2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56043FD725BAD04200FB075A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSB3DT694V;
+				INFOPLIST_FILE = "Flickroo V2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kooapps.rjlacanlale.Flickroo-V2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56043FB425BAD02700FB075A /* Build configuration list for PBXProject "Flickroo V2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56043FD325BAD04200FB075A /* Debug */,
+				56043FD425BAD04200FB075A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56043FD525BAD04200FB075A /* Build configuration list for PBXNativeTarget "Flickroo V2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56043FD625BAD04200FB075A /* Debug */,
+				56043FD725BAD04200FB075A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		56043FC825BAD02700FB075A /* Flickroo_V2_0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				56043FC925BAD02700FB075A /* Flickroo_V2_0.xcdatamodel */,
+			);
+			currentVersion = 56043FC925BAD02700FB075A /* Flickroo_V2_0.xcdatamodel */;
+			path = Flickroo_V2_0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 56043FB125BAD02700FB075A /* Project object */;
+}
